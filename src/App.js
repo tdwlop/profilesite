@@ -69,6 +69,20 @@ function App() {
                   - Used React with Bootstrap to make a simple form <br></br>
                   - Used hCaptcha and Bing Maps API <br></br>
                 </p>
+                <div className='project-links'>
+                  <a href='https://tdwlop.github.io/cscwwwform/#/' target={"_blank"}>
+                    <button className='project-link-button'>
+                      <p>Demo</p>
+                    </button>
+                  </a>
+                  <a href='https://github.com/tdwlop/cscwwwform' target={'_blank'}>
+                    <button className='project-link-button'>
+                      <p>
+                        Github
+                      </p>
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -104,6 +118,20 @@ function App() {
                   - Went through design process from mock-ups to implementation <br></br>
                   - All done with virtual team communication <br></br>
                 </p>
+                <div className='project-links'>
+                  <a href='https://josephkois.github.io/Team-6/Protodes/HTML/index.html' target={"_blank"}>
+                    <button className='project-link-button'>
+                      <p>Demo</p>
+                    </button>
+                  </a>
+                  <a href='https://github.com/josephkois/Team-6' target={'_blank'}>
+                    <button className='project-link-button'>
+                      <p>
+                        Github
+                      </p>
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
 
