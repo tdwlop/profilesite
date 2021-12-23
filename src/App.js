@@ -33,6 +33,7 @@ function App() {
 
         <div className='intro-area' id="intro">
         <p className='intro-area-title'>Intro</p>
+        <p>Incomplete</p>
         </div>
 
         <div className='project-area' id="projects">
@@ -98,6 +99,15 @@ function App() {
                   - Used p5.js for visualizer and tone.js for sounds <br></br>
                   - All done with virtual team communication <br></br>
                 </p>
+                <div className='project-links'>
+                  <a href='https://github.com/tdwlop/csc600FinalProject' target={'_blank'}>
+                    <button className='project-link-button'>
+                      <p>
+                        Github
+                      </p>
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -128,6 +138,20 @@ function App() {
                     <button className='project-link-button'>
                       <p>
                         Github
+                      </p>
+                    </button>
+                  </a>
+                  <a href='https://www.figma.com/file/5R5qq6OAcFzdOpmFQAGEfv/HCI-Team-6?node-id=238%3A3090'>
+                  <button className='project-link-button'>
+                      <p>
+                        Figma
+                      </p>
+                    </button>
+                  </a>
+                  <a href='https://docs.google.com/document/d/1_FoiaUS_EQ2TVH1ZntOup2K_JuNYaukJPUy1mq6kfco/edit?usp=sharing'>
+                  <button className='project-link-button'>
+                      <p>
+                        Writeup
                       </p>
                     </button>
                   </a>
@@ -163,6 +187,15 @@ function App() {
                   - Conceptual design (ER models), Logical designs (relational schemas), creating the tables and fake data <br></br>
                   - All done in Azure Virtual Lab and virtual team communication <br></br>
                 </p>
+                <div className='project-links'>
+                  <a href='https://docs.google.com/presentation/d/1QqsxIr1Cd6Bc4Yb3_BhjekmVnuC_oEjNNkasN9zXBcs/edit?usp=sharing' target={'_blank'}>
+                    <button className='project-link-button'>
+                      <p>
+                        Slides
+                      </p>
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -178,7 +211,7 @@ function App() {
           <div className='row justify-content-between'>
           <div className='col-md-6'>
               <div className='experience-area-card'>
-                <p className='experience-area-card-title'>IT Helpdeak Technician <br></br>
+                <p className='experience-area-card-title'>IT Helpdesk Technician <br></br>
                 SanFrancisco State University <br></br>
                 1600 Holloway Avenue, San Francisco, CA 94132 <br></br>
                 September 2021 - Present</p>
@@ -257,6 +290,7 @@ function App() {
 
         <div className='contact-area' id="contact">
         <p className='contact-area-title'>Contact</p>
+        <p>Imcomplete</p>
         </div>
       </div>
     </div>
