@@ -88,7 +88,10 @@
   color:#000;
   margin: 2% 0 0 2%;
 }
-
+#intro-area-card{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .project-area{
   margin: 0 0 5% 0;
  
@@ -147,6 +150,20 @@
   margin-bottom: 2%;
 }
 
+.hobbies-area{
+  margin: 0 0 5% 0;
+}
+.hobbies-area-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  color:#000;
+  margin: 2% 0 0 2%;
+}
+#hobbies-area-card{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .contact-area{
   margin: 0 0 5% 0;
 }
@@ -156,7 +173,10 @@
   color:#000;
   margin: 2% 0 0 2%;
 }
-
+#contact-area-card{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .row{
   margin: 0 0 1% 0;
 }

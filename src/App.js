@@ -19,8 +19,14 @@ function App() {
                 <li class="nav-item">
                   <a class="nav-link" href="#projects">Projects</a>
                 </li>
+                {/* <li class="nav-item">
+                  <a class="nav-link" href="#preference">Preference</a>
+                </li> */}
                 <li class="nav-item">
                   <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#hobbies">Hobbies</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
@@ -32,8 +38,14 @@ function App() {
         </div>
 
         <div className='intro-area' id="intro">
-        <p className='intro-area-title'>Intro</p>
-        <p>Incomplete</p>
+          <p className='intro-area-title'>Intro</p>
+          <div className="container-sm" id="intro-area-card">
+            <p>Hi. I'm Vivian. I am a 2022 SFSU graduate with a Computer Science BS.
+              I am currently unemployed after finishing my temporary Fiscal Services Coordinator position for the College of Health and Social Sciences at SFSU.
+              Growth through experience is essential to my continued success.
+              Thank you for visiting and for your time.</p>
+          </div>
+
         </div>
 
         <div className='project-area' id="projects">
@@ -41,10 +53,10 @@ function App() {
           <div className="project-area-cards row justify-content-between">
 
             <div className='col-md-4'>
-              
+
               <div className='project-area-card'>
                 <p className='project-area-card-title'>File System Project (Team) <br></br>
-                Spring 2021</p>
+                  Spring 2021</p>
                 <div className='project-area-button-tags'>
 
                 </div>
@@ -56,13 +68,13 @@ function App() {
                   - All done in virtual machine ubuntu and virtual team communication <br></br>
                 </p>
               </div>
-              
+
             </div>
 
             <div className='col-md-4'>
               <div className='project-area-card'>
                 <p className='project-area-card-title'>Simple Form (Individual) <br></br>
-                Fall 2021</p>
+                  Fall 2021</p>
                 <div className='project-area-button-tags'>
 
                 </div>
@@ -90,7 +102,7 @@ function App() {
             <div className='col-md-4'>
               <div className='project-area-card'>
                 <p className='project-area-card-title'>Instrument and Visualizer Project (Team) <br></br>
-                Fall 2021</p>
+                  Fall 2021</p>
                 <div className='project-area-button-tags'>
 
                 </div>
@@ -111,14 +123,14 @@ function App() {
               </div>
             </div>
 
-            
+
 
           </div>
           <div className='row justify-content-between'>
-          <div className='col-md-4'>
+            <div className='col-md-4'>
               <div className='project-area-card'>
                 <p className='project-area-card-title'>Gator Companion (Team) <br></br>
-                Fall 2021</p>
+                  Fall 2021</p>
                 <div className='project-area-button-tags'>
 
                 </div>
@@ -142,14 +154,14 @@ function App() {
                     </button>
                   </a>
                   <a href='https://www.figma.com/file/5R5qq6OAcFzdOpmFQAGEfv/HCI-Team-6?node-id=238%3A3090'>
-                  <button className='project-link-button'>
+                    <button className='project-link-button'>
                       <p>
                         Figma
                       </p>
                     </button>
                   </a>
                   <a href='https://docs.google.com/document/d/1_FoiaUS_EQ2TVH1ZntOup2K_JuNYaukJPUy1mq6kfco/edit?usp=sharing'>
-                  <button className='project-link-button'>
+                    <button className='project-link-button'>
                       <p>
                         Writeup
                       </p>
@@ -162,7 +174,7 @@ function App() {
             <div className='col-md-4'>
               <div className='project-area-card'>
                 <p className='project-area-card-title'> Webpage (Team) <br></br>
-                Fall 2020</p>
+                  Fall 2020</p>
                 <div className='project-area-button-tags'>
 
                 </div>
@@ -178,7 +190,7 @@ function App() {
             <div className='col-md-4'>
               <div className='project-area-card'>
                 <p className='project-area-card-title'>Designing a SQL Database (Team) <br></br>
-                Fall 2021</p>
+                  Fall 2021</p>
                 <div className='project-area-button-tags'>
 
                 </div>
@@ -205,33 +217,52 @@ function App() {
         </div>
 
         <div className='experience-area' id="experience">
-        <p className='experience-area-title'>Experience</p>
+          <p className='experience-area-title'>Experience</p>
           <div>
 
-          <div className='row justify-content-between'>
-          <div className='col-md-6'>
-              <div className='experience-area-card'>
-                <p className='experience-area-card-title'>IT Helpdesk Technician <br></br>
-                SanFrancisco State University <br></br>
-                1600 Holloway Avenue, San Francisco, CA 94132 <br></br>
-                September 2021 - Present</p>
-                <div className='experience-area-button-tags'>
+            <div className='row justify-content-between'>
 
+              <div className='col-md-6'>
+                <div className='experience-area-card'>
+                  <p className='experience-area-card-title'> Fiscal Services Coordinator <br></br>
+                    San Francisco State University - CHSS <br></br>
+                    1600 Holloway Avenue, San Francisco, CA 94132 <br></br>
+                    August 2022 - February 2023</p>
+                  <div className='experience-area-button-tags'>
+
+                  </div>
+                  <p className='experience-area-card-description'>
+                    - Coordinated and managed travel processing and reimbursements through Concur and fiscal transactions through DocuSign daily. <br></br>
+                    - Generated fiscal reports through CSU's Financial Data Warehouse to reconcile with College's records monthly.  <br></br>
+                    - Processed student assistant and hourly employees' monthly payroll  <br></br>
+                    - Updated internal policies and guidelines to match the ever-changing University policies <br></br>
+                  </p>
                 </div>
-                <p className='experience-area-card-description'>
-                  - Imaging, setting up, and updating computers and installing software <br></br>
-                  - Setting up printers/scanners and troubleshooting printer/scanner connection issues <br></br>
-                  - Removing and d-banning hard drives for E-waste <br></br>
-                  - Responding, completing tickets <br></br>
-                  - Emailing customers and answering the phone <br></br>
-                </p>
               </div>
-            </div>
 
-            <div className='col-md-6'>
+              <div className='col-md-6'>
+                <div className='experience-area-card'>
+                  <p className='experience-area-card-title'>IT Helpdesk Technician <br></br>
+                    San Francisco State University - CHSS <br></br>
+                    1600 Holloway Avenue, San Francisco, CA 94132 <br></br>
+                    September 2021 - August 2022</p>
+                  <div className='experience-area-button-tags'>
+
+                  </div>
+                  <p className='experience-area-card-description'>
+                    - Imaging, setting up, and updating computers and installing software <br></br>
+                    - Setting up printers/scanners and troubleshooting printer/scanner connection issues <br></br>
+                    - Removing and d-banning hard drives for E-waste <br></br>
+                    - Responding, completing tickets <br></br>
+                    - Emailing customers and answering the phone <br></br>
+                  </p>
+                </div>
+              </div>
+
+              {/* <div className='col-md-6'>
               <div className='experience-area-card'>
                 <p className='experience-area-card-title'>Office Student Assistant <br></br>
-                SanFrancisco State University <br></br>
+                San Francisco State University <br></br>
                 1600 Holloway Avenue, San Francisco, CA 94132 <br></br>
                 August 2021 - September 2021</p>
                 <div className='experience-area-button-tags'>
@@ -245,52 +276,68 @@ function App() {
                   - Handled mail packages and other supplies <br></br>
                 </p>
               </div>
-            </div>
+            </div> */}
             </div>
             <div className='row justify-content-between'>
-            <div className='col-md-6'>
-              <div className='experience-area-card'>
-                <p className='experience-area-card-title'>Customer Service/Cashier <br></br>
-                Target <br></br>
-                233 Winston Dr, San Francisco, CA 94132 <br></br>
-                July 2018 - August 2019</p>
-                <div className='experience-area-button-tags'>
+              <div className='col-md-6'>
+                <div className='experience-area-card'>
+                  <p className='experience-area-card-title'>Customer Service/Cashier <br></br>
+                    Target <br></br>
+                    233 Winston Dr, San Francisco, CA 94132 <br></br>
+                    July 2018 - August 2019</p>
+                  <div className='experience-area-button-tags'>
 
+                  </div>
+                  <p className='experience-area-card-description'>
+                    - Responsible for handling customer payments through quick and accurate transactions <br></br>
+                    - Resolved customer disputes in a calm and collected manner at guest services <br></br>
+                    - Remained collected and professional even during peak hours <br></br>
+
+                  </p>
                 </div>
-                <p className='experience-area-card-description'>
-                  - Responsible for handling customer payments through quick and accurate transactions <br></br>
-                  - Resolved customer disputes in a calm and collected manner at guest services <br></br>
-                  - Remained collected and professional even during peak hours <br></br>
-        
-                </p>
               </div>
-            </div>
 
-            <div className='col-md-6'>
-              <div className='experience-area-card'>
-                <p className='experience-area-card-title'>Teacher Assistant <br></br>
-                Lowell High School <br></br>
-                1101 Eucalyptus Dr, San Francisco, CA 94132 <br></br>
-                November 2016 - May 2018</p>
-                <div className='experience-area-button-tags'>
+              <div className='col-md-6'>
+                <div className='experience-area-card'>
+                  <p className='experience-area-card-title'>Teacher Assistant <br></br>
+                    Lowell High School <br></br>
+                    1101 Eucalyptus Dr, San Francisco, CA 94132 <br></br>
+                    November 2016 - May 2018</p>
+                  <div className='experience-area-button-tags'>
 
+                  </div>
+                  <p className='experience-area-card-description'>
+                    - Organized paper handouts and books for each class section <br></br>
+                    - Graded papers and recorded grades for data entry <br></br>
+                    - Operated scantron machines for multiple choice tests and printer machines for handouts <br></br>
+
+                  </p>
                 </div>
-                <p className='experience-area-card-description'>
-                  - Organized paper handouts and books for each class section <br></br>
-                  - Graded papers and recorded grades for data entry <br></br>
-                  - Operated scantron machines for multiple choice tests and printer machines for handouts <br></br>
-        
-                </p>
               </div>
-            </div>
             </div>
           </div>
-         
+
+        </div>
+
+        <div className='hobbies-area' id="hobbies">
+          <p className='hobbies-area-title'>Hobbies</p>
+          <div className="container-sm" id="hobbies-area-card">
+            <ul>
+              <li>Watching wholesome videos to make me believe in humanity again</li>
+              <li>Baking and cooking to feed my hunger</li>
+              <li>Gardening for nice oxygen</li>
+            </ul>
+          </div>
+
+
         </div>
 
         <div className='contact-area' id="contact">
-        <p className='contact-area-title'>Contact</p>
-        <p>Imcomplete</p>
+          <p className='contact-area-title'>Contact</p>
+          <div className="container-sm" id="contact-area-card">
+            <p>Contact information should be on resume</p>
+          </div>
+          
         </div>
       </div>
     </div>
